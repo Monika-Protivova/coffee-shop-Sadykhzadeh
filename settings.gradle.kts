@@ -1,8 +1,7 @@
 rootProject.name = "backend-development-course"
 
 include("deprecated")
-include("coffee-shop-integration-tests")
-include("coffee-shop-application")
+include("coffee-shop-application", "coffee-shop-integration-tests")
 
 dependencyResolutionManagement {
     versionCatalogs {
