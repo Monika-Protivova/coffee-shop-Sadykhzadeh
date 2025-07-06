@@ -14,6 +14,8 @@ repositories {
 
 dependencies {
     implementation(project(":coffee-shop-application"))
+    // testImplementation? why not?
+    testImplementation(project(":coffee-shop-application"))
 
     implementation(libs.ktor.server.core)
     implementation(libs.ktor.server.auth)
